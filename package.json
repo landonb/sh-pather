@@ -1,0 +1,12 @@
+{
+  "name": "sh-pathlib",
+  "version": "0.0.1",
+  "description": "OCD PATH helpers",
+  "scripts": [
+    "bin/path_prefix",
+    "bin/path_suffix",
+    "bin/pathlib.sh"
+  ],
+  "install": "make install",
+}
+
