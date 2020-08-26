@@ -23,6 +23,7 @@ path_suffix () {
 . "$(dirname -- "${BASH_SOURCE[0]}")/pather.sh"
 
 if [ "${BASH_SOURCE[0]}" = "$0" ]; then
+  >&2 echo "WARNING: Changes to PATH do not stick unless path_prefix the function is run: ${@}"
   path_suffix "${@}"
 else
   export -f path_suffix
