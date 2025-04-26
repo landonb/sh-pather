@@ -7,6 +7,5 @@
     "bin/path_suffix",
     "bin/pathlib.sh"
   ],
-  "install": "make install",
+  "install": "make install"
 }
-
